@@ -93,6 +93,10 @@ img:hover{
     transform: scale(0.9);
 }
 
+h2:hover{
+    transform: scale(0,9);
+}
+
 
 
 
