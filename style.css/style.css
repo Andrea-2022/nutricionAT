@@ -33,6 +33,7 @@ nav ul{
     flex-direction: column;
     columns: 100vh;
     list-style-type: none;
+    color: #fc5404;
     
 }
 
