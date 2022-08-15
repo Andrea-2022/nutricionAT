@@ -62,136 +62,83 @@ footer{
     ;
     gap: 20px;
     grid-template-columns: 1fr;
-}
 
-
-
-
-@media (min-width:500px){
-    .grilla{
-    display: grid;
-    grid-template-columns: auto;
-    grid-template-areas: 
-    "header           header"
-    "nav              nav"
-    "foto-portada     foto-portada"
-    "speech           speech"
-    "foto-consul      foto-consul"
-    "speech2          speech2"
-    "foto-consul2     foto-consul2"
-    "speech3          speech3"
-    "footer           footer"
-    ;
-    gap: 20px;
-    } 
-
-    nav ul{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        padding: 10px;
-        background-color: darkgray;
-    }
-
-    header{
-        margin: 0;
-        padding: 0;
-        margin-top: 10px;
-    }
-      
-    img{
-        width: 350px;
-        height: auto;
+        @media (min-width:500px){
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-areas: 
+        "header           header"
+        "nav              nav"
+        "foto-portada     foto-portada"
+        "speech           speech"
+        "foto-consul      foto-consul"
+        "speech2          speech2"
+        "foto-consul2     foto-consul2"
+        "speech3          speech3"
+        "footer           footer"
+        ;
+        gap: 20px;
     
-    }
-    
-    footer{
+        header{
+            margin: 0;
+            padding: 0;
+            margin-top: 10px;
+        }
         
-        margin-bottom: 0;
     }
-}
-
-
-
-@media (min-width:768px){
-    .grilla{
-            display: grid;
-            grid-template-columns: 1fr 3fr 3fr;
-            grid-template-areas: 
-            "header         header           header"
-            "nav            nav              nav"
-            "foto-portada   speech           speech"
-            "foto-portada   speech           speech"
-            "foto-consul    speech2          speech2"
-            "foto-consul    speech2          speech2"
-            "foto-consul2   speech3          speech3"
-            "foto-consul2   speech3          speech3"
-            "footer         footer           footer"
-             ;
-            gap: 20px;
-            margin-bottom: 0;
-            
-    }
-
-    nav ul{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-    }
-
-
-    img{
-        width: 200px;
-        height: auto;
-    }
-
-    header{
-        margin: 0;
-        padding: 0;
-        margin-top: 10px;
-    }
-
-}
-
-@media (min-width:1024px){
-    body{
-        background: rgb(253,167,4);
-        background: linear-gradient(0deg, rgba(253,167,4,1) 2%, rgba(22,20,19,0.7567401960784313) 82%);
-    }
-
-    p, h2{
-        color: black;
-    }
-
     
-    img{
-        width: 475px;
-        height: auto;
-        margin: 20px;
-        border: 10px solid black;
+    
+    
+                @media (min-width:768px){
+                display: grid;
+                grid-template-columns: 1fr 3fr 3fr;
+                grid-template-areas: 
+                "header         header           header"
+                "nav            nav              nav"
+                "foto-portada   speech           speech"
+                "foto-portada   speech           speech"
+                "foto-consul    speech2          speech2"
+                "foto-consul    speech2          speech2"
+                "foto-consul2   speech3          speech3"
+                "foto-consul2   speech3          speech3"
+                "footer         footer           footer"
+                 ;
+                gap: 20px;
+                margin-bottom: 0;
+    
+                header{
+                margin: 0;
+                padding: 0;
+                 margin-top: 10px;
+        }
+    
+    }
+    
+                    @media (min-width:1024px){
+                    display: grid;
+                    grid-template-columns: 1fr 3fr 3fr;
+                    grid-template-areas: 
+                   "header         header           header"
+                    "nav            nav              nav"
+                    "foto-portada   speech           speech"
+                    "foto-portada   speech           speech"
+                    "foto-consul    speech2          speech2"
+                    "foto-consul    speech2          speech2"
+                    "foto-consul2   speech3          speech3"
+                    "foto-consul2   speech3          speech3"
+                    "footer         footer           footer"
+                     ;
+                    gap: 20px;
+                    margin-bottom: 0;
+    
+                   .click{
+                    color: #fc5404;
+                  }
+    
     }
 
-    .click{
-        color: #fc5404;
-    }
 
-    nav ul{
-        padding: 10px;
-        background-color: black;
-    }
-
-    header{
-        margin: 0;
-        padding: 0;
-    }
-
-    footer{
-        background-color: black;
-        color: #fc5404;
-    }
 }
-
-
 
 
 header{
@@ -230,11 +177,10 @@ nav{
     ;
     gap: 20px;
     grid-template-columns: 1fr;
-}
+
 
 
 @media (min-width:500px){
-    .grilla-sobre-mi{
     border: 10px solid darkgray;
     display: grid;
     grid-template-columns: auto;
@@ -247,7 +193,7 @@ nav{
     "footer           footer"
     ;
     gap: 20px;
-    } 
+    
 
 
     header{
@@ -256,15 +202,10 @@ nav{
         margin-top: 10px;
     }
     
-    footer{
-        
-        margin-bottom: 0;
-    }
 }
 
 
 @media (min-width:768px){
-    .grilla-sobre-mi{
             display: grid;
             grid-template-columns: 1fr 3fr 3fr;
             grid-template-areas: 
@@ -277,15 +218,7 @@ nav{
              ;
             gap: 20px;
             margin-bottom: 0;
-            
-    }
 
-
-
-    img{
-        width: 200px;
-        height: auto;
-    }
 
     header{
         margin: 0;
@@ -296,16 +229,14 @@ nav{
 }
 
 @media (min-width:1024px){
-    .grilla-sobre-mi{
         border: 0px;
-    }
-     
 
     header{
         margin: 0;
         padding: 0;
     }
 
+}
 }
 
 
@@ -366,11 +297,9 @@ footer{
     ;
     gap: 20px;
     grid-template-columns: 1fr;
-}
 
 
 @media (min-width:500px){
-    .grilla-planes{
     display: grid;
     grid-template-columns: auto;
     grid-template-areas: 
@@ -387,7 +316,6 @@ footer{
     "footer             footer"
     ;
     gap: 20px;
-    } 
 
 
     header{
@@ -396,15 +324,10 @@ footer{
         margin-top: 10px;
     }
     
-    footer{
-        
-        margin-bottom: 0;
-    }
 }
 
 
 @media (min-width:768px){
-    .grilla-planes{
             display: grid;
             grid-template-columns: 1fr 1fr;
             grid-template-areas: 
@@ -423,12 +346,7 @@ footer{
             gap: 20px;
             margin-bottom: 0;
             
-    }
-
-    img{
-        width: 200px;
-        height: auto;
-    }
+    
 
     header{
         margin: 0;
@@ -439,9 +357,8 @@ footer{
 }
 
 @media (min-width:1024px){
-    .grilla-planes{
         border: 0px;
-    }
+    
      
 
     header{
@@ -449,6 +366,7 @@ footer{
         padding: 0;
     }
 
+}
 }
 
 
@@ -524,11 +442,9 @@ nav{
     ;
     gap: 20px;
     grid-template-columns: 1fr;
-}
 
 
 @media (min-width:500px){
-    .grilla-combos{
     display: grid;
     grid-template-columns: auto;
     grid-template-areas: 
@@ -547,7 +463,6 @@ nav{
     "footer             footer"
     ;
     gap: 20px;
-    } 
 
 
     header{
@@ -556,15 +471,10 @@ nav{
         margin-top: 10px;
     }
     
-    footer{
-        
-        margin-bottom: 0;
-    }
 }
 
 
 @media (min-width:768px){
-    .grilla-combos{
             display: grid;
             grid-template-columns: 1fr 1fr;
             grid-template-areas: 
@@ -585,12 +495,6 @@ nav{
             gap: 20px;
             margin-bottom: 0;
             
-    }
-
-    img{
-        width: 200px;
-        height: auto;
-    }
 
     header{
         margin: 0;
@@ -601,9 +505,9 @@ nav{
 }
 
 @media (min-width:1024px){
-       .grilla-combos{
+        border: 0px;
         display: grid;
-        grid-template-columns: 1fr 3fr 3fr;
+        grid-template-columns: 1fr 1fr 1fr;
         grid-template-areas: 
         "header             header                header"
         "nav                nav                   nav"
@@ -620,9 +524,7 @@ nav{
         "footer             footer                footer"
          ;
         gap: 20px;
-        margin-bottom: 0;
         
-}
      
 
     header{
@@ -630,6 +532,7 @@ nav{
         padding: 0;
     }
 
+}
 }
 
 
@@ -694,10 +597,6 @@ footer{
         height: 300px;
     }
     
-    footer{
-        
-        margin-bottom: 0;
-    }
 }
 
 
