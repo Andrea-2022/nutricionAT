@@ -2,84 +2,11 @@
 @import "fuentes";
 @import "generales";
 @import "index";
+@import "animaciones";
+@import "footer";
 
 
 
-
-.container-fluid{
-    background-color: darkgray;
-
-}
-
-nav ul{
-    display: flex;
-    flex-direction: column;
-    columns: 100vh;
-    list-style-type: none;
-    color: #fc5404;
-    
-}
-
-a{
-    text-decoration: none;
-    color: #fc5404;
-    font-weight: bold;
-}
-
-h1, h2{
-    text-decoration: none;
-    color: #fc5404;
-    font-weight: normal;
-}
-
-
-p{
-    padding: 1em;
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: medium;
-    font-weight: normal;
-    color: #fc5404;
-}
-
-.click{
-    text-decoration: solid;
-    list-style-type: square;
-    text-underline-position: inherit;
-    color: darkgray;
-}
-
-footer{
-    color: black;
-    font-weight: lighter;
-    font-style: normal;
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: #fc5404;
-    margin-bottom: 0;
-    margin-top: 1em;
-    padding: 1em;
-}
-
-.formulario{
-    position: relative;
-    color: #fc5404;
-    padding: 10%;
-    text-align: justify;
-    border: 5px solid darkgray
-    
-}
-
-.transformacion:hover{
-    transform: scale(0.9);
-}
-
-img:hover{
-    transform: scale(0.9);
-}
-
-h2:hover{
-    transform: scale(0,9);
-}
 
 
 
@@ -138,12 +65,7 @@ footer{
 }
 
 
-img{
-    border: 10px solid #fc5404;
-    width: 250px;
-    height: auto;
-    margin-top: 10px;
-}
+
 
 @media (min-width:500px){
     .grilla{
