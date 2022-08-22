@@ -1,0 +1,18 @@
+.estilo-nav-bar{
+    background-color: darkgray;
+
+}
+
+.container-fluid{
+    @extend .estilo-nav-bar;
+
+}
+
+@mixin sizes ($height, $widht){
+    height: $height;
+    width: $widht;
+}
+
+.container-fluid{
+    @include sizes(50px, auto )
+}
